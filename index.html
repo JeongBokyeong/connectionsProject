@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+
+<script src="js/jquery-1.6.2.min.js"></script>
+<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="js/jquery.livequery.js"></script>
+<script src="js/Position.js"></script>
+<script src="js/raphael.js"></script>
+
+<meta charset="UTF-8" />
+<title>Canvas Drag and Drop Test</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="#", onclick="Add();">🥳
+                <!-- <i class="ai-home"></i> -->
+                <span>ADD</span>
+            </a>
+        </li>
+        <li>
+            <a href="#", onclick="StartR();">🫱
+                <!-- <i class="ai-image"></i> -->
+                <span>CONNECT</span>
+            </a>
+        </li>	
+        <li>
+            <a href="#", onclick="DeleteN();">😞
+                <!-- <i class="ai-file"></i> -->
+                <span>DELETE</span>
+            </a>
+        </li>
+    </ul>
+    <!-- 그림 영역 -->
+    <section> 
+        <div id="all-container">
+            <div id="holder" ></div>
+            <div id="A" >
+                <textarea name="root" id="root" class="in" readonly>ME</textarea>
+            </div>
+        </div>
+        <script src="js/worked.js"></script>
+    </section>
+</body>
+</html>
